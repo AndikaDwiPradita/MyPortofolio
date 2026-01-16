@@ -75,8 +75,6 @@ header{
 
 .navbar-container .navbar-menu.active {
   display: flex;
-  background-color: green;
-  border: 2px solid green;
 }
 
 .navbar-container .navbar-menu li a {
