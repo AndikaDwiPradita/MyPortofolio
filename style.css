@@ -75,6 +75,8 @@ header{
 
 .navbar-container .navbar-menu.active {
   display: flex;
+  background-color: green;
+  border: 2px solid green;
 }
 
 .navbar-container .navbar-menu li a {
@@ -448,6 +450,11 @@ span{
 
 /** Responsif Layout **/
 @media (max-width: 2000px) {
+
+  .navbar-container .navbar-menu li a {
+    font-size: 3.5rem;
+  }
+
   .Navbar-logo {
     font-size: 4rem;
     color: green;
@@ -455,12 +462,12 @@ span{
   
   .box h3 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   
   .box p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-top: 10px;
     word-wrap: break-word;
   }
@@ -474,34 +481,34 @@ span{
   }
   
   .skill span {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   .percent {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #bbb;
   }
   
   .ExpBox h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   }
   
   .ExpBox p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: left;
   }
 
   .cf h3 {
-    padding: 10px;
+    padding: 10px 50px;
     text-align: left;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   .cf p {
-    padding: 10px;
+    padding: 10px 50px;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .footer-text {
