@@ -75,6 +75,8 @@ header{
 
 .navbar-container .navbar-menu.active {
   display: flex;
+  background-color: green;
+  border: 2px solid green;
 }
 
 .navbar-container .navbar-menu li a {
@@ -259,6 +261,13 @@ span{
   flex-wrap: wrap;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.box-img {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .section-title {
@@ -801,4 +810,8 @@ span{
     grid-template-columns: 1fr;
   }
   
+  .box-img {
+    display: none;
+  }
+
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio Website</title>
 </head>
 <body>
@@ -22,7 +23,6 @@
           <li><a href="index.html#services" >Services</a></li>
           <li><a href="index.html#skills" >Skills</a></li>
           <li><a href="index.html#experience" >Experience</a></li>
-            <li><a href="index.html#certificate">Certificate</a></li>
           <li><a href="index.html#contact" >Contact</a></li>
         </ul>
     </div>
@@ -31,9 +31,9 @@
         
     <section class="home">
         <div class="home-img" id="main">
-            <img src="images/main.jpg" alt="">
+            <img src="images/main.jpg" data-aos="zoom-in" data-aos-duration="1000" alt="">
         </div>
-        <div class="home-content" id="contact">
+        <div class="home-content" id="contact" data-aos="fade-right" data-aos-duration="1000">
             <h1>Hi, It's <span>Andika</span></h1>
             <h3 class="typing-text" id="home">I'm a <span></span></h3>
             <p>I'm Profesional Web Developer, I Can Write Code <b>HTML, Css, And Javascript</b> Only.</p>
@@ -49,29 +49,43 @@
     </section>
     
   <div class="gradient">
-    <h1 class="section-title" id="services"> Services </h1>
+    <h1 class="section-title" id="services" data-aos="zoom-in" data-aos-delay="100"> Services </h1>
     <div class="container">
-      <div class="box">
+      <div class="box" data-aos="fade-right" data-aos-delay="250">
         <h3>Web Development</h3>
         <p>Build modern, fast, and responsive websites using HTML, CSS, JavaScript</p>
       </div>
-      <div class="box">
+      
+      <div class="box-img" data-aos="fade-left">
+        <img src="images/wd.jpg">
+      </div>
+    
+      <div class="box-img" data-aos="fade-right">
+        <img src="images/ui.jpg" style="width: 80%;">
+      </div>
+
+      <div class="box" data-aos="fade-left" data-aos-delay="250">
         <h3>UI/UX Design</h3>
         <p>Design a website appearance that is clean, minimalist, and comfortable for users to use.</p>
       </div>
-      <div class="box">
+
+      <div class="box" data-aos="fade-right" data-aos-delay="250">
         <h3>Website Optimization</h3>
         <p>Improve website speed, SEO, and performance to make it faster and easier to find.</p>
+      </div>
+
+      <div class="box-img" data-aos="fade-left">
+        <img src="images/wo.jpg">
       </div>
     </div>
   </div>
 
 <div class="gradient">
-  <h2 class="section-title" id="skills">My Skills</h2>
+  <h2 class="section-title" id="skills" data-aos="zoom-in" data-aos-delay="100">My Skills</h2>
   <div class="container">
     <!-- Technical Skills -->
-    <div class="skill-grup">
-        <h3 class="sub-title">Technical Skills</h3>
+    <div class="skill-grup" data-aos="fade-right" data-aos-delay="250">
+        <h3 class="sub-title" data-aos="zoom-in" data-aos-delay="100">Technical Skills</h3>
         <div class="skill">
             <span>HTML</span>
             <div class="barskill"><div class="progress" style="width: 90%;"></div></div>
@@ -91,7 +105,7 @@
         </div>
     </div>
 
-    <div class="skill-grup">
+    <div class="skill-grup" data-aos="fade-left" data-aos-delay="250">
       <h3 class="sub-title">Professional Skills</h3>
         <div class="skill">
             <span>Creativity</span>
@@ -121,10 +135,10 @@
 </div>
 
 <div class="gradient">
-   <h1 class="section-title" id="experience">Experience</h1>
+   <h1 class="section-title" id="experience" data-aos="zoom-in" data-aos-delay="100">Experience</h1>
   <div class="container">
   
-    <div class="ExpBox">
+    <div class="ExpBox" data-aos="fade-right" data-aos-delay="250">
       <H3>Learning Experience-Web Development</H3>
       <p>Year: 2024-2025</p>
       <p>Description:</p>
@@ -134,7 +148,7 @@
 
     
   
-    <div class="ExpBox">
+    <div class="ExpBox" data-aos="fade-left" data-aos-delay="250">
       <H3>Personal Project-Portfolio website</H3>
       <p>Role: Front-End Developer</p>
       <p>Year: 2025</p>
@@ -145,7 +159,7 @@
       <a href="#" class="demo">View Website</a>
     </div>
     
-    <div class="ExpBox">
+    <div class="ExpBox" data-aos="fade-right" data-aos-delay="250">
       <H3>Personal Project-Create Website Cafe</H3>
       <p>Role: Front-End Developer</p>
       <p>Year: 2025</p>
@@ -161,16 +175,16 @@
 </div>
 
 <div class="gradient">
-  <h1 class="section-title" id="certificate">Certificate</h1>
+  <h1 class="section-title" id="experience" data-aos="zoom-in" data-aos-delay="100">Certificate</h1>
   <div class="container">
 
-    <div class="cf">
+    <div class="cf" data-aos="fade-right" data-aos-delay="250">
       <img src="images/cf1.jpeg">
       <h3><b>Certificate Of Appreciation Indigo: Jalan Ninja Menjadi Ai Engineer</b></h3>
       <p>This certificate was obtained when I participated in a zoom webinar that discussed AI Engineers from the Indigo program</p>
     </div>
 
-    <div class="cf">
+    <div class="cf" data-aos="fade-left" data-aos-delay="250">
       <img src="images/cf2.jpeg">
       <h3><b>Certificate Of Appreciation Indigo: Data Scientist 101</b></h3>
       <p>This certificate was obtained when I participated in a zoom webinar that discussed AI Engineers from the Indigo program</p>
@@ -179,13 +193,13 @@
   </div>
 </div>
 
-<footer class="footer">
+<footer class="footer" data-aos="fade-up" data-aos-delay="250">
     <p class="footer-text">© 2025 Andika Dwi Pradita. All Rights Reserved.</p>
 </footer>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 
 </html>
-
 
